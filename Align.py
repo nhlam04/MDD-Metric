@@ -3,7 +3,7 @@ from jiwer import wer, cer
 import pandas as pd
 
 # Load CSV
-test = pd.read_csv("xyz.csv")
+test = pd.read_csv("result/W2v_l.csv")
 
 # === PER and Correctness ===
 del_sub_count = 0
